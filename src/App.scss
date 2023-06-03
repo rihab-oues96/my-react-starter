@@ -1,0 +1,50 @@
+@use "./assets/scss/utils" as *;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Poppins !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1600px) {
+  html {
+    font-size: 58%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  html {
+    font-size: 40%;
+  }
+}
